@@ -20,7 +20,7 @@ namespace Lab6b.Controllers
         private SelectList dropDownListValue(SelectList list)
         {
             List<SelectListItem> _list = list.ToList();
-            _list.Insert(0, new SelectListItem() { Value = "-1", Text = "---Show All---" });
+            _list.Insert(0, new SelectListItem() { Value = "-1", Text = "Show All" });
             return new SelectList((IEnumerable<SelectListItem>)_list, "Value", "Text");
         }
 
