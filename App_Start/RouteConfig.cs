@@ -5,7 +5,7 @@ using System.Web;
 using System.Web.Mvc;
 using System.Web.Routing;
 
-namespace AjaxLab
+namespace Lab6b
 {
     public class RouteConfig
     {

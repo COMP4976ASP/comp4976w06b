@@ -6,9 +6,9 @@ using System.Web.Mvc;
 using Microsoft.AspNet.Identity;
 using Microsoft.AspNet.Identity.Owin;
 using Microsoft.Owin.Security;
-using AjaxLab.Models;
+using Lab6b.Models;
 
-namespace AjaxLab.Controllers
+namespace Lab6b.Controllers
 {
     [Authorize]
     public class ManageController : Controller

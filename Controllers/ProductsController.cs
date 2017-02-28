@@ -1,136 +1,149 @@
-﻿using System;
+﻿using Lab6b.Models;
+using System;
 using System.Collections.Generic;
-using System.Data;
-using System.Data.Entity;
 using System.Linq;
-using System.Net;
 using System.Web;
 using System.Web.Mvc;
-using AjaxLab.Models;
+using System.Data.Entity;
 
-namespace AjaxLab.Controllers
+namespace Lab6b.Controllers
 {
     public class ProductsController : Controller
     {
-        private NorthwindEntities db = new NorthwindEntities();
-
+        NorthwindContext ctx = new NorthwindContext();
         // GET: Products
         public ActionResult Index()
         {
-            var products = db.Products.Include(p => p.Category).Include(p => p.Supplier);
-            return View(products.ToList());
+            return View();
+        }
+
+        private SelectList dropDownListValue(SelectList list)
+        {
+            List<SelectListItem> _list = list.ToList();
+            _list.Insert(0, new SelectListItem() { Value = "-1", Text = "---Show All---" });
+            return new SelectList((IEnumerable<SelectListItem>)_list, "Value", "Text");
+        }
+
+        public ActionResult ProductSearch(string categoryId, string supplierId)
+        {
+
+            ViewData["categoryId"] = dropDownListValue(new SelectList(ctx.Categories, "CategoryID", "CategoryID"));
+            ViewData["supplierId"] = dropDownListValue(new SelectList(ctx.Suppliers, "SupplierID", "SupplierID"));
+
+            var selectedCategory = Convert.ToInt32(categoryId);
+            var selectedSupplier = Convert.ToInt32(supplierId);
+
+            var prod = ctx.Products.Include(p => p.Category).Include(p => p.Supplier)
+                .OrderBy(c => c.ProductID)
+                .ToList();
+
+            if (Request.IsAjaxRequest())
+            {
+                if (selectedCategory != -1 && selectedSupplier != -1)
+                {
+                    prod = ctx.Products.Include(p => p.Category)
+                        .Include(p => p.Supplier)
+                        .Where(p => p.CategoryID == selectedCategory && p.SupplierID == selectedSupplier)
+                        .OrderBy(c => c.ProductID)
+                        .ToList();
+                }
+                else if (selectedCategory != -1 && selectedSupplier == -1)
+                {
+                    prod = ctx.Products.Include(p => p.Category).Include(p => p.Supplier)
+                        .Where(p => p.CategoryID == selectedCategory)
+                        .OrderBy(c => c.ProductID)
+                        .ToList();
+                }
+                else if (selectedCategory == -1 && selectedSupplier != -1)
+                {
+                    prod = ctx.Products.Include(p => p.Category).Include(p => p.Supplier)
+                        .Where(p => p.SupplierID == selectedSupplier)
+                        .OrderBy(c => c.ProductID)
+                        .ToList();
+                }
+                else
+                {
+                    prod = ctx.Products.Include(p => p.Category).Include(p => p.Supplier)
+                    .OrderBy(c => c.ProductID)
+                    .ToList();
+                }
+                ViewBag.Message = String.Format("Product with category = {0} , and Supplier = {1}", selectedCategory, selectedSupplier);
+                return PartialView("_ProductSearchPartial", prod);
+            }
+
+            return View(prod);
         }
 
         // GET: Products/Details/5
-        public ActionResult Details(int? id)
+        public ActionResult Details(int id)
         {
-            if (id == null)
-            {
-                return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
-            }
-            Product product = db.Products.Find(id);
-            if (product == null)
-            {
-                return HttpNotFound();
-            }
-            return View(product);
+            return View();
         }
 
         // GET: Products/Create
         public ActionResult Create()
         {
-            ViewBag.CategoryID = new SelectList(db.Categories, "CategoryID", "CategoryName");
-            ViewBag.SupplierID = new SelectList(db.Suppliers, "SupplierID", "CompanyName");
             return View();
         }
 
         // POST: Products/Create
-        // To protect from overposting attacks, please enable the specific properties you want to bind to, for 
-        // more details see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
-        [ValidateAntiForgeryToken]
-        public ActionResult Create([Bind(Include = "ProductID,ProductName,SupplierID,CategoryID,QuantityPerUnit,UnitPrice,UnitsInStock,UnitsOnOrder,ReorderLevel,Discontinued")] Product product)
+        public ActionResult Create(FormCollection collection)
         {
-            if (ModelState.IsValid)
+            try
             {
-                db.Products.Add(product);
-                db.SaveChanges();
+                // TODO: Add insert logic here
+
                 return RedirectToAction("Index");
             }
-
-            ViewBag.CategoryID = new SelectList(db.Categories, "CategoryID", "CategoryName", product.CategoryID);
-            ViewBag.SupplierID = new SelectList(db.Suppliers, "SupplierID", "CompanyName", product.SupplierID);
-            return View(product);
+            catch
+            {
+                return View();
+            }
         }
 
         // GET: Products/Edit/5
-        public ActionResult Edit(int? id)
+        public ActionResult Edit(int id)
         {
-            if (id == null)
-            {
-                return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
-            }
-            Product product = db.Products.Find(id);
-            if (product == null)
-            {
-                return HttpNotFound();
-            }
-            ViewBag.CategoryID = new SelectList(db.Categories, "CategoryID", "CategoryName", product.CategoryID);
-            ViewBag.SupplierID = new SelectList(db.Suppliers, "SupplierID", "CompanyName", product.SupplierID);
-            return View(product);
+            return View();
         }
 
         // POST: Products/Edit/5
-        // To protect from overposting attacks, please enable the specific properties you want to bind to, for 
-        // more details see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
-        [ValidateAntiForgeryToken]
-        public ActionResult Edit([Bind(Include = "ProductID,ProductName,SupplierID,CategoryID,QuantityPerUnit,UnitPrice,UnitsInStock,UnitsOnOrder,ReorderLevel,Discontinued")] Product product)
+        public ActionResult Edit(int id, FormCollection collection)
         {
-            if (ModelState.IsValid)
+            try
             {
-                db.Entry(product).State = EntityState.Modified;
-                db.SaveChanges();
+                // TODO: Add update logic here
+
                 return RedirectToAction("Index");
             }
-            ViewBag.CategoryID = new SelectList(db.Categories, "CategoryID", "CategoryName", product.CategoryID);
-            ViewBag.SupplierID = new SelectList(db.Suppliers, "SupplierID", "CompanyName", product.SupplierID);
-            return View(product);
+            catch
+            {
+                return View();
+            }
         }
 
         // GET: Products/Delete/5
-        public ActionResult Delete(int? id)
+        public ActionResult Delete(int id)
         {
-            if (id == null)
-            {
-                return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
-            }
-            Product product = db.Products.Find(id);
-            if (product == null)
-            {
-                return HttpNotFound();
-            }
-            return View(product);
+            return View();
         }
 
         // POST: Products/Delete/5
-        [HttpPost, ActionName("Delete")]
-        [ValidateAntiForgeryToken]
-        public ActionResult DeleteConfirmed(int id)
+        [HttpPost]
+        public ActionResult Delete(int id, FormCollection collection)
         {
-            Product product = db.Products.Find(id);
-            db.Products.Remove(product);
-            db.SaveChanges();
-            return RedirectToAction("Index");
-        }
-
-        protected override void Dispose(bool disposing)
-        {
-            if (disposing)
+            try
             {
-                db.Dispose();
+                // TODO: Add delete logic here
+
+                return RedirectToAction("Index");
             }
-            base.Dispose(disposing);
+            catch
+            {
+                return View();
+            }
         }
     }
 }

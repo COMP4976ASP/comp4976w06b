@@ -7,16 +7,16 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace AjaxLab.Models
+namespace Lab6b.Models
 {
     using System;
     using System.Data.Entity;
     using System.Data.Entity.Infrastructure;
     
-    public partial class NorthwindEntities : DbContext
+    public partial class NorthwindContext : DbContext
     {
-        public NorthwindEntities()
-            : base("name=NorthwindEntities")
+        public NorthwindContext()
+            : base("name=NorthwindContext")
         {
         }
     
@@ -28,7 +28,5 @@ namespace AjaxLab.Models
         public virtual DbSet<Category> Categories { get; set; }
         public virtual DbSet<Product> Products { get; set; }
         public virtual DbSet<Supplier> Suppliers { get; set; }
-        public string Category { get; internal set; }
-        public string Supplier { get; internal set; }
     }
 }

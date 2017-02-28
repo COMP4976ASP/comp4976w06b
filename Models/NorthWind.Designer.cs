@@ -1,4 +1,4 @@
-﻿// T4 code generation is enabled for model 'c:\users\rebec\onedrive\documents\visual studio 2015\Projects\AjaxLab\AjaxLab\Models\NorthWind.edmx'. 
+﻿// T4 code generation is enabled for model 'c:\users\cassiel\documents\visual studio 2015\Projects\Lab6b\Lab6b\Models\Northwind.edmx'. 
 // To enable legacy code generation, change the value of the 'Code Generation Strategy' designer
 // property to 'Legacy ObjectContext'. This property is available in the Properties Window when the model
 // is open in the designer.

@@ -1,7 +1,7 @@
 ﻿using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 
-namespace AjaxLab.Models
+namespace Lab6b.Models
 {
     public class ExternalLoginConfirmationViewModel
     {

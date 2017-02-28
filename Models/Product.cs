@@ -7,7 +7,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace AjaxLab.Models
+namespace Lab6b.Models
 {
     using System;
     using System.Collections.Generic;

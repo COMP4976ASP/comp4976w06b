@@ -5,9 +5,9 @@ using Microsoft.Owin;
 using Microsoft.Owin.Security.Cookies;
 using Microsoft.Owin.Security.Google;
 using Owin;
-using AjaxLab.Models;
+using Lab6b.Models;
 
-namespace AjaxLab
+namespace Lab6b
 {
     public partial class Startup
     {

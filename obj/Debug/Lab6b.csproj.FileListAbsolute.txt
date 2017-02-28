@@ -1,0 +1,138 @@
+c:\users\cassiel\documents\visual studio 2015\Projects\Lab6b\Lab6b\obj\Debug\Lab6b.csprojResolveAssemblyReference.cache
+c:\users\cassiel\documents\visual studio 2015\Projects\Lab6b\Lab6b\bin\roslyn\csc.exe
+c:\users\cassiel\documents\visual studio 2015\Projects\Lab6b\Lab6b\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+c:\users\cassiel\documents\visual studio 2015\Projects\Lab6b\Lab6b\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+c:\users\cassiel\documents\visual studio 2015\Projects\Lab6b\Lab6b\bin\roslyn\Microsoft.CodeAnalysis.dll
+c:\users\cassiel\documents\visual studio 2015\Projects\Lab6b\Lab6b\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+c:\users\cassiel\documents\visual studio 2015\Projects\Lab6b\Lab6b\bin\roslyn\Microsoft.CSharp.Core.targets
+c:\users\cassiel\documents\visual studio 2015\Projects\Lab6b\Lab6b\bin\roslyn\Microsoft.VisualBasic.Core.targets
+c:\users\cassiel\documents\visual studio 2015\Projects\Lab6b\Lab6b\bin\roslyn\System.Collections.Immutable.dll
+c:\users\cassiel\documents\visual studio 2015\Projects\Lab6b\Lab6b\bin\roslyn\System.Reflection.Metadata.dll
+c:\users\cassiel\documents\visual studio 2015\Projects\Lab6b\Lab6b\bin\roslyn\vbc.exe
+c:\users\cassiel\documents\visual studio 2015\Projects\Lab6b\Lab6b\bin\roslyn\VBCSCompiler.exe
+c:\users\cassiel\documents\visual studio 2015\Projects\Lab6b\Lab6b\bin\roslyn\VBCSCompiler.exe.config
+c:\users\cassiel\documents\visual studio 2015\Projects\Lab6b\Lab6b\bin\Lab6b.dll.config
+c:\users\cassiel\documents\visual studio 2015\Projects\Lab6b\Lab6b\bin\Lab6b.dll
+c:\users\cassiel\documents\visual studio 2015\Projects\Lab6b\Lab6b\bin\Lab6b.pdb
+c:\users\cassiel\documents\visual studio 2015\Projects\Lab6b\Lab6b\bin\Antlr3.Runtime.dll
+c:\users\cassiel\documents\visual studio 2015\Projects\Lab6b\Lab6b\bin\EntityFramework.dll
+c:\users\cassiel\documents\visual studio 2015\Projects\Lab6b\Lab6b\bin\EntityFramework.SqlServer.dll
+c:\users\cassiel\documents\visual studio 2015\Projects\Lab6b\Lab6b\bin\Microsoft.AspNet.Identity.Core.dll
+c:\users\cassiel\documents\visual studio 2015\Projects\Lab6b\Lab6b\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+c:\users\cassiel\documents\visual studio 2015\Projects\Lab6b\Lab6b\bin\Microsoft.AspNet.Identity.Owin.dll
+c:\users\cassiel\documents\visual studio 2015\Projects\Lab6b\Lab6b\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+c:\users\cassiel\documents\visual studio 2015\Projects\Lab6b\Lab6b\bin\Microsoft.Owin.dll
+c:\users\cassiel\documents\visual studio 2015\Projects\Lab6b\Lab6b\bin\Microsoft.Owin.Host.SystemWeb.dll
+c:\users\cassiel\documents\visual studio 2015\Projects\Lab6b\Lab6b\bin\Microsoft.Owin.Security.Cookies.dll
+c:\users\cassiel\documents\visual studio 2015\Projects\Lab6b\Lab6b\bin\Microsoft.Owin.Security.dll
+c:\users\cassiel\documents\visual studio 2015\Projects\Lab6b\Lab6b\bin\Microsoft.Owin.Security.Facebook.dll
+c:\users\cassiel\documents\visual studio 2015\Projects\Lab6b\Lab6b\bin\Microsoft.Owin.Security.Google.dll
+c:\users\cassiel\documents\visual studio 2015\Projects\Lab6b\Lab6b\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+c:\users\cassiel\documents\visual studio 2015\Projects\Lab6b\Lab6b\bin\Microsoft.Owin.Security.OAuth.dll
+c:\users\cassiel\documents\visual studio 2015\Projects\Lab6b\Lab6b\bin\Microsoft.Owin.Security.Twitter.dll
+c:\users\cassiel\documents\visual studio 2015\Projects\Lab6b\Lab6b\bin\Microsoft.Web.Infrastructure.dll
+c:\users\cassiel\documents\visual studio 2015\Projects\Lab6b\Lab6b\bin\Newtonsoft.Json.dll
+c:\users\cassiel\documents\visual studio 2015\Projects\Lab6b\Lab6b\bin\Owin.dll
+c:\users\cassiel\documents\visual studio 2015\Projects\Lab6b\Lab6b\bin\System.Web.Helpers.dll
+c:\users\cassiel\documents\visual studio 2015\Projects\Lab6b\Lab6b\bin\System.Web.Mvc.dll
+c:\users\cassiel\documents\visual studio 2015\Projects\Lab6b\Lab6b\bin\System.Web.Optimization.dll
+c:\users\cassiel\documents\visual studio 2015\Projects\Lab6b\Lab6b\bin\System.Web.Razor.dll
+c:\users\cassiel\documents\visual studio 2015\Projects\Lab6b\Lab6b\bin\System.Web.WebPages.Deployment.dll
+c:\users\cassiel\documents\visual studio 2015\Projects\Lab6b\Lab6b\bin\System.Web.WebPages.dll
+c:\users\cassiel\documents\visual studio 2015\Projects\Lab6b\Lab6b\bin\System.Web.WebPages.Razor.dll
+c:\users\cassiel\documents\visual studio 2015\Projects\Lab6b\Lab6b\bin\WebGrease.dll
+c:\users\cassiel\documents\visual studio 2015\Projects\Lab6b\Lab6b\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+c:\users\cassiel\documents\visual studio 2015\Projects\Lab6b\Lab6b\bin\System.Web.Helpers.xml
+c:\users\cassiel\documents\visual studio 2015\Projects\Lab6b\Lab6b\bin\System.Web.Mvc.xml
+c:\users\cassiel\documents\visual studio 2015\Projects\Lab6b\Lab6b\bin\System.Web.Optimization.xml
+c:\users\cassiel\documents\visual studio 2015\Projects\Lab6b\Lab6b\bin\System.Web.Razor.xml
+c:\users\cassiel\documents\visual studio 2015\Projects\Lab6b\Lab6b\bin\System.Web.WebPages.xml
+c:\users\cassiel\documents\visual studio 2015\Projects\Lab6b\Lab6b\bin\System.Web.WebPages.Deployment.xml
+c:\users\cassiel\documents\visual studio 2015\Projects\Lab6b\Lab6b\bin\System.Web.WebPages.Razor.xml
+c:\users\cassiel\documents\visual studio 2015\Projects\Lab6b\Lab6b\bin\Antlr3.Runtime.pdb
+c:\users\cassiel\documents\visual studio 2015\Projects\Lab6b\Lab6b\bin\Newtonsoft.Json.xml
+c:\users\cassiel\documents\visual studio 2015\Projects\Lab6b\Lab6b\bin\EntityFramework.xml
+c:\users\cassiel\documents\visual studio 2015\Projects\Lab6b\Lab6b\bin\EntityFramework.SqlServer.xml
+c:\users\cassiel\documents\visual studio 2015\Projects\Lab6b\Lab6b\bin\Microsoft.AspNet.Identity.Core.xml
+c:\users\cassiel\documents\visual studio 2015\Projects\Lab6b\Lab6b\bin\Microsoft.AspNet.Identity.Owin.xml
+c:\users\cassiel\documents\visual studio 2015\Projects\Lab6b\Lab6b\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+c:\users\cassiel\documents\visual studio 2015\Projects\Lab6b\Lab6b\bin\Microsoft.Owin.xml
+c:\users\cassiel\documents\visual studio 2015\Projects\Lab6b\Lab6b\bin\Microsoft.Owin.Host.SystemWeb.xml
+c:\users\cassiel\documents\visual studio 2015\Projects\Lab6b\Lab6b\bin\Microsoft.Owin.Security.xml
+c:\users\cassiel\documents\visual studio 2015\Projects\Lab6b\Lab6b\bin\Microsoft.Owin.Security.Facebook.xml
+c:\users\cassiel\documents\visual studio 2015\Projects\Lab6b\Lab6b\bin\Microsoft.Owin.Security.Cookies.xml
+c:\users\cassiel\documents\visual studio 2015\Projects\Lab6b\Lab6b\bin\Microsoft.Owin.Security.OAuth.xml
+c:\users\cassiel\documents\visual studio 2015\Projects\Lab6b\Lab6b\bin\Microsoft.Owin.Security.Google.xml
+c:\users\cassiel\documents\visual studio 2015\Projects\Lab6b\Lab6b\bin\Microsoft.Owin.Security.Twitter.xml
+c:\users\cassiel\documents\visual studio 2015\Projects\Lab6b\Lab6b\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+c:\users\cassiel\documents\visual studio 2015\Projects\Lab6b\Lab6b\obj\Debug\Lab6b.dll
+c:\users\cassiel\documents\visual studio 2015\Projects\Lab6b\Lab6b\obj\Debug\Lab6b.pdb
+C:\Users\arnoldmyint\Desktop\ASP.NET-Lab-6-master\Lab6b\bin\roslyn\csc.exe
+C:\Users\arnoldmyint\Desktop\ASP.NET-Lab-6-master\Lab6b\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\arnoldmyint\Desktop\ASP.NET-Lab-6-master\Lab6b\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\arnoldmyint\Desktop\ASP.NET-Lab-6-master\Lab6b\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\arnoldmyint\Desktop\ASP.NET-Lab-6-master\Lab6b\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\arnoldmyint\Desktop\ASP.NET-Lab-6-master\Lab6b\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\arnoldmyint\Desktop\ASP.NET-Lab-6-master\Lab6b\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\arnoldmyint\Desktop\ASP.NET-Lab-6-master\Lab6b\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\arnoldmyint\Desktop\ASP.NET-Lab-6-master\Lab6b\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\arnoldmyint\Desktop\ASP.NET-Lab-6-master\Lab6b\bin\roslyn\vbc.exe
+C:\Users\arnoldmyint\Desktop\ASP.NET-Lab-6-master\Lab6b\bin\roslyn\VBCSCompiler.exe
+C:\Users\arnoldmyint\Desktop\ASP.NET-Lab-6-master\Lab6b\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\arnoldmyint\Desktop\ASP.NET-Lab-6-master\Lab6b\bin\Lab6b.dll.config
+C:\Users\arnoldmyint\Desktop\ASP.NET-Lab-6-master\Lab6b\bin\Lab6b.dll
+C:\Users\arnoldmyint\Desktop\ASP.NET-Lab-6-master\Lab6b\bin\Lab6b.pdb
+C:\Users\arnoldmyint\Desktop\ASP.NET-Lab-6-master\Lab6b\bin\Antlr3.Runtime.dll
+C:\Users\arnoldmyint\Desktop\ASP.NET-Lab-6-master\Lab6b\bin\EntityFramework.dll
+C:\Users\arnoldmyint\Desktop\ASP.NET-Lab-6-master\Lab6b\bin\EntityFramework.SqlServer.dll
+C:\Users\arnoldmyint\Desktop\ASP.NET-Lab-6-master\Lab6b\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\arnoldmyint\Desktop\ASP.NET-Lab-6-master\Lab6b\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\arnoldmyint\Desktop\ASP.NET-Lab-6-master\Lab6b\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\arnoldmyint\Desktop\ASP.NET-Lab-6-master\Lab6b\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\arnoldmyint\Desktop\ASP.NET-Lab-6-master\Lab6b\bin\Microsoft.Owin.dll
+C:\Users\arnoldmyint\Desktop\ASP.NET-Lab-6-master\Lab6b\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\arnoldmyint\Desktop\ASP.NET-Lab-6-master\Lab6b\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\arnoldmyint\Desktop\ASP.NET-Lab-6-master\Lab6b\bin\Microsoft.Owin.Security.dll
+C:\Users\arnoldmyint\Desktop\ASP.NET-Lab-6-master\Lab6b\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\arnoldmyint\Desktop\ASP.NET-Lab-6-master\Lab6b\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\arnoldmyint\Desktop\ASP.NET-Lab-6-master\Lab6b\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\arnoldmyint\Desktop\ASP.NET-Lab-6-master\Lab6b\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\arnoldmyint\Desktop\ASP.NET-Lab-6-master\Lab6b\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\arnoldmyint\Desktop\ASP.NET-Lab-6-master\Lab6b\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\arnoldmyint\Desktop\ASP.NET-Lab-6-master\Lab6b\bin\Newtonsoft.Json.dll
+C:\Users\arnoldmyint\Desktop\ASP.NET-Lab-6-master\Lab6b\bin\Owin.dll
+C:\Users\arnoldmyint\Desktop\ASP.NET-Lab-6-master\Lab6b\bin\System.Web.Helpers.dll
+C:\Users\arnoldmyint\Desktop\ASP.NET-Lab-6-master\Lab6b\bin\System.Web.Mvc.dll
+C:\Users\arnoldmyint\Desktop\ASP.NET-Lab-6-master\Lab6b\bin\System.Web.Optimization.dll
+C:\Users\arnoldmyint\Desktop\ASP.NET-Lab-6-master\Lab6b\bin\System.Web.Razor.dll
+C:\Users\arnoldmyint\Desktop\ASP.NET-Lab-6-master\Lab6b\bin\System.Web.WebPages.Deployment.dll
+C:\Users\arnoldmyint\Desktop\ASP.NET-Lab-6-master\Lab6b\bin\System.Web.WebPages.dll
+C:\Users\arnoldmyint\Desktop\ASP.NET-Lab-6-master\Lab6b\bin\System.Web.WebPages.Razor.dll
+C:\Users\arnoldmyint\Desktop\ASP.NET-Lab-6-master\Lab6b\bin\WebGrease.dll
+C:\Users\arnoldmyint\Desktop\ASP.NET-Lab-6-master\Lab6b\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\arnoldmyint\Desktop\ASP.NET-Lab-6-master\Lab6b\bin\System.Web.Helpers.xml
+C:\Users\arnoldmyint\Desktop\ASP.NET-Lab-6-master\Lab6b\bin\System.Web.Mvc.xml
+C:\Users\arnoldmyint\Desktop\ASP.NET-Lab-6-master\Lab6b\bin\System.Web.Optimization.xml
+C:\Users\arnoldmyint\Desktop\ASP.NET-Lab-6-master\Lab6b\bin\System.Web.Razor.xml
+C:\Users\arnoldmyint\Desktop\ASP.NET-Lab-6-master\Lab6b\bin\System.Web.WebPages.xml
+C:\Users\arnoldmyint\Desktop\ASP.NET-Lab-6-master\Lab6b\bin\System.Web.WebPages.Deployment.xml
+C:\Users\arnoldmyint\Desktop\ASP.NET-Lab-6-master\Lab6b\bin\System.Web.WebPages.Razor.xml
+C:\Users\arnoldmyint\Desktop\ASP.NET-Lab-6-master\Lab6b\bin\Antlr3.Runtime.pdb
+C:\Users\arnoldmyint\Desktop\ASP.NET-Lab-6-master\Lab6b\bin\Newtonsoft.Json.xml
+C:\Users\arnoldmyint\Desktop\ASP.NET-Lab-6-master\Lab6b\bin\EntityFramework.xml
+C:\Users\arnoldmyint\Desktop\ASP.NET-Lab-6-master\Lab6b\bin\EntityFramework.SqlServer.xml
+C:\Users\arnoldmyint\Desktop\ASP.NET-Lab-6-master\Lab6b\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\arnoldmyint\Desktop\ASP.NET-Lab-6-master\Lab6b\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\arnoldmyint\Desktop\ASP.NET-Lab-6-master\Lab6b\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\arnoldmyint\Desktop\ASP.NET-Lab-6-master\Lab6b\bin\Microsoft.Owin.xml
+C:\Users\arnoldmyint\Desktop\ASP.NET-Lab-6-master\Lab6b\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\arnoldmyint\Desktop\ASP.NET-Lab-6-master\Lab6b\bin\Microsoft.Owin.Security.xml
+C:\Users\arnoldmyint\Desktop\ASP.NET-Lab-6-master\Lab6b\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\arnoldmyint\Desktop\ASP.NET-Lab-6-master\Lab6b\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\arnoldmyint\Desktop\ASP.NET-Lab-6-master\Lab6b\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\arnoldmyint\Desktop\ASP.NET-Lab-6-master\Lab6b\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\arnoldmyint\Desktop\ASP.NET-Lab-6-master\Lab6b\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\arnoldmyint\Desktop\ASP.NET-Lab-6-master\Lab6b\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\arnoldmyint\Desktop\ASP.NET-Lab-6-master\Lab6b\obj\Debug\Lab6b.csprojResolveAssemblyReference.cache
+C:\Users\arnoldmyint\Desktop\ASP.NET-Lab-6-master\Lab6b\obj\Debug\Lab6b.dll
+C:\Users\arnoldmyint\Desktop\ASP.NET-Lab-6-master\Lab6b\obj\Debug\Lab6b.pdb
