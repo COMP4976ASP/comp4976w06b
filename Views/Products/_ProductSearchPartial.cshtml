@@ -12,8 +12,8 @@
     @foreach (var item in Model)
     {
         <tr>
-            <td>@item.CategoryID</td>
-            <td>@item.SupplierID</td>
+            <td>@item.Category.CategoryName</td>
+            <td>@item.Supplier.CompanyName</td>
             <td>@item.ProductID</td>
             <td>@item.ProductName</td>
             <td>@item.UnitPrice</td>

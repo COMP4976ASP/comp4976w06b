@@ -3,19 +3,19 @@
 <h3>@ViewBag.Message</h3>
 <table style="border-collapse:separate; border-spacing:10px 10px;">
     <tr>
-        <th>Category ID</th>
-        <th>Supplier ID</th>
         <th>Product ID</th>
         <th>Product Name</th>
+        <th>Category</th>
+        <th>Supplier</th>
         <th>Unit Price</th>
     </tr>
     @foreach (var item in Model)
     {
         <tr>
-            <td>@item.CategoryID</td>
-            <td>@item.SupplierID</td>
             <td>@item.ProductID</td>
             <td>@item.ProductName</td>
+            <td>@item.Category.CategoryName</td>
+            <td>@item.Supplier.CompanyName</td>
             <td>@item.UnitPrice</td>
         </tr>
     }

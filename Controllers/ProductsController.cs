@@ -27,11 +27,14 @@ namespace Lab6b.Controllers
         public ActionResult ProductSearch(string categoryId, string supplierId)
         {
 
-            ViewData["categoryId"] = dropDownListValue(new SelectList(ctx.Categories, "CategoryID", "CategoryID"));
-            ViewData["supplierId"] = dropDownListValue(new SelectList(ctx.Suppliers, "SupplierID", "SupplierID"));
+            ViewData["categoryId"] = dropDownListValue(new SelectList(ctx.Categories, "CategoryID", "CategoryName"));
+            ViewData["supplierId"] = dropDownListValue(new SelectList(ctx.Suppliers, "SupplierID", "CompanyName"));
 
             var selectedCategory = Convert.ToInt32(categoryId);
             var selectedSupplier = Convert.ToInt32(supplierId);
+            var categoryName = "";
+            var supplierName = "";
+            var result = "";
 
             var prod = ctx.Products.Include(p => p.Category).Include(p => p.Supplier)
                 .OrderBy(c => c.ProductID)
@@ -46,6 +49,9 @@ namespace Lab6b.Controllers
                         .Where(p => p.CategoryID == selectedCategory && p.SupplierID == selectedSupplier)
                         .OrderBy(c => c.ProductID)
                         .ToList();
+                    categoryName = ctx.Categories.Where(c => c.CategoryID == selectedCategory).Select(c => c.CategoryName).First().ToString();
+                    supplierName = ctx.Suppliers.Where(s => s.SupplierID == selectedSupplier).Select(s => s.CompanyName).First().ToString();
+                    result = "Product with category = " + categoryName + ", and Supplier = " + supplierName + ".";
                 }
                 else if (selectedCategory != -1 && selectedSupplier == -1)
                 {
@@ -53,6 +59,8 @@ namespace Lab6b.Controllers
                         .Where(p => p.CategoryID == selectedCategory)
                         .OrderBy(c => c.ProductID)
                         .ToList();
+                    categoryName = ctx.Categories.Where(c => c.CategoryID == selectedCategory).Select(c => c.CategoryName).First().ToString();
+                    result = "All products with category = " + categoryName + ".";
                 }
                 else if (selectedCategory == -1 && selectedSupplier != -1)
                 {
@@ -60,14 +68,18 @@ namespace Lab6b.Controllers
                         .Where(p => p.SupplierID == selectedSupplier)
                         .OrderBy(c => c.ProductID)
                         .ToList();
+                    supplierName = ctx.Suppliers.Where(s => s.SupplierID == selectedSupplier).Select(s => s.CompanyName).First().ToString();
+                    result = "All products with supplier = " + supplierName + ".";
                 }
                 else
                 {
                     prod = ctx.Products.Include(p => p.Category).Include(p => p.Supplier)
                     .OrderBy(c => c.ProductID)
                     .ToList();
+                    result = "All products.";
                 }
-                ViewBag.Message = String.Format("Product with category = {0} , and Supplier = {1}", selectedCategory, selectedSupplier);
+
+                ViewBag.Message = result;
                 return PartialView("_ProductSearchPartial", prod);
             }
 
